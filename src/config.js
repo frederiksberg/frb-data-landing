@@ -7,24 +7,9 @@ const config = {
             image:'grafana.png',
             links:[
                 {
-                    name:'Cykelhjelm',
-                    tooltip:'Andel af cyklister med cykelhjelm',
-                    value:'http://138.68.94.229:3000/d/CMxeOmemz/cykel-hjelm-overvagning'
-                },
-                {
-                    name:'Klimaprojekter',
-                    tooltip:'Data fra regn- og vandstandsmålere til at overvåge klimaprojekter',
-                    value:'http://138.68.94.229:3000/d/uWm4wrAiz/mariendalsvej-klima-sensor'
-                },
-                {
-                    name:'Parkering',
-                    tooltip:'Status på parkeringspladser bag rådhuset',
-                    value:'http://138.68.94.229:3000/d/EwVJQj0ik/parkerings-dashboard'
-                },
-                {
-                    name:'Trafiktælling',
-                    tooltip:'Tællinger af biler, cykler og fodgængere',
-                    value:'http://138.68.94.229:3000/d/lHRMvjaiz/trafiktaelling'
+                    name:'Grafana',
+                    tooltip:'Visualiseringsværktøj til tidsserier',
+                    value:'https://grafana.frb-data.dk'
                 }
             ]
         },

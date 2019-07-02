@@ -1,8 +1,8 @@
 {
-  "name": "frb-portal",
+  "name": "fra-data",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gis.frederiksberg.dk/portal",
+  "homepage": "https://frb-data.dk",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@material-ui/core": "^3.9.3",
