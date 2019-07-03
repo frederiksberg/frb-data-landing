@@ -29,7 +29,8 @@ const styles = theme => ({
   root: {
     backgroundImage:'url(media/back.png)',
     height:'100%',
-    overflow:'auto'
+    backgroundSize: 'cover',
+    backgroundAttachment: 'fixed'
   },
 });
 
