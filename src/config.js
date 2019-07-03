@@ -8,14 +8,14 @@ const config = {
             links:[
                 {
                     name:'Grafana',
-                    tooltip:'Visualiseringsværktøj til tidsserier',
+                    tooltip:'Visualiseringsværktøj til tidsserier m.m.',
                     value:'https://grafana.frb-data.dk'
                 }
             ]
         },
         {
             name: 'NodeRED',
-            description:'IoT platform til styre at datastrømme',
+            description:'IoT løsning til grafisk at styre datastrømme',
             category:'IoT',
             image:'nodered.png',
             links:[
