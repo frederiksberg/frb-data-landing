@@ -24,7 +24,7 @@ const config = {
                     tooltip:'Gå til NodeRED',
                     value:'https://nodered.frb-data.dk'
                 },
-              
+
             ]
         },
         {
@@ -38,7 +38,7 @@ const config = {
                     tooltip:'Gå til Swagger',
                     value:'https://api.frb-data.dk'
                 },
-              
+
             ]
         },
         {
@@ -56,7 +56,20 @@ const config = {
                     name:'Maputnik',
                     tooltip:'Styling af vector tiles',
                     value:'https://maputnik.frb-data.dk'
-                }          
+                }
+            ]
+        },
+        {
+            name: 'Tilehut',
+            description:'Serving af .MBTiles filer',
+            category:'GIS',
+            image:'tilehut.png',
+            links:[
+                {
+                    name:'Tilehut',
+                    tooltip:'Se alle online tilesets',
+                    value:'https://th.frb-data.dk'
+                }
             ]
         },
         {
